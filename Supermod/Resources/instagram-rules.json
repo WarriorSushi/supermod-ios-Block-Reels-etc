@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "elements": {
+    "stories": "main [data-pagelet='Stories'],main [aria-label='Stories'][role='region']",
+    "suggestions": "main article[data-testid='suggested-post'],main section[aria-label='Suggested for you']",
+    "sponsored": "main article[data-testid='sponsored-post'],main article[aria-label='Sponsored post']",
+    "feed": "main article,main [role='feed']"
+  },
+  "markers": {
+    "sponsored": "main article header [aria-label='Sponsored']",
+    "suggestions": "main article header [aria-label='Suggested for you']"
+  }
+}

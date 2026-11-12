@@ -1,0 +1,28 @@
+html[data-supermod-active] .supermod-hidden:not(.supermod-filtered-post) { display: none !important; }
+
+/* Recognized timeline entries are removed from data before layout. Residual
+   cards keep their natural height: never collapse a row the virtualizer knows. */
+html[data-supermod-active] :is(.supermod-filtered-post, .supermod-follow-suggestions):not(:has(
+  dialog[open], [role="dialog"]:not([hidden], [aria-hidden="true"]),
+  textarea:focus, [contenteditable="true"]:focus
+)) {
+  visibility: hidden !important;
+  pointer-events: none !important;
+  position: relative;
+}
+html[data-supermod-active] :is(.supermod-filtered-post, .supermod-follow-suggestions):not(:has(
+  dialog[open], [role="dialog"]:not([hidden], [aria-hidden="true"]),
+  textarea:focus, [contenteditable="true"]:focus
+))::after {
+  content: attr(data-supermod-filter-label);
+  visibility: visible;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #737373;
+  font: 13px -apple-system, sans-serif;
+}
+
+/* Instagram owns virtual-list spacers and scroll positioning. */
+html[data-supermod-blocked] body { visibility: hidden !important; }

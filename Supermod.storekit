@@ -1,0 +1,53 @@
+{
+  "identifier" : "A52F5188",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_IN",
+    "_storefront" : "IND",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "F7005000",
+      "localizations" : [],
+      "name" : "Supermod",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "999",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "F7005001",
+          "introductoryOffer" : null,
+          "localizations" : [{"description":"Instagram, Facebook, and YouTube with your selected modifications.","displayName":"Supermod Monthly","locale":"en_IN"},{"description":"Instagram, Facebook, and YouTube with your selected modifications.","displayName":"Supermod Monthly","locale":"en_US"}],
+          "productID" : "app.supermod.ios.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly",
+          "subscriptionGroupID" : "F7005000",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2999",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "F7005002",
+          "introductoryOffer" : null,
+          "localizations" : [{"description":"Instagram, Facebook, and YouTube with your selected modifications.","displayName":"Supermod Annual","locale":"en_IN"},{"description":"Instagram, Facebook, and YouTube with your selected modifications.","displayName":"Supermod Annual","locale":"en_US"}],
+          "productID" : "app.supermod.ios.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Annual",
+          "subscriptionGroupID" : "F7005000",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {"major":3,"minor":0}
+}

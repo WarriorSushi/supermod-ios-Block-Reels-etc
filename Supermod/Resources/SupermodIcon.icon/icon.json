@@ -1,0 +1,32 @@
+{
+  "fill": {
+    "solid": "srgb:1.00000,0.79000,0.72000,1.00000"
+  },
+  "groups": [
+    {
+      "name": "Supermod mascot",
+      "layers": [
+        {
+          "name": "Approved mascot",
+          "image-name": "Mascot.png",
+          "glass": false
+        }
+      ],
+      "specular": false
+    },
+    {
+      "name": "Cream and coral",
+      "layers": [
+        {
+          "name": "Backdrop",
+          "image-name": "Backdrop.png",
+          "glass": false
+        }
+      ],
+      "specular": false
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="face" x1=".1" y1="0" x2=".85" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#fffdf0"/><stop offset=".42" stop-color="#f0edde"/><stop offset="1" stop-color="#c5c3a8"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#e3dfc8"/><stop offset="1" stop-color="#626957"/>
+    </linearGradient>
+  </defs>
+  <g id="upper-edge" transform="translate(0 20)" fill="url(#edge)">
+    <path d="M174 594 243 391Q264 329 323 303L647 158Q682 142 718 159L855 231Q871 240 852 250L387 480Q350 498 328 536L279 625Q266 648 239 635L185 612Q169 605 174 594Z"/>
+  </g>
+  <g id="lower-edge" transform="translate(0 20)" fill="url(#edge)">
+    <path d="M854 424 788 628Q768 692 708 721L407 866Q372 883 335 865L202 800Q183 791 204 780L640 548Q673 530 692 492L735 408Q748 383 776 393L842 412Q858 418 854 424Z"/>
+  </g>
+  <g id="pearl-faces" fill="url(#face)">
+    <path d="M174 594 243 391Q264 329 323 303L647 158Q682 142 718 159L855 231Q871 240 852 250L387 480Q350 498 328 536L279 625Q266 648 239 635L185 612Q169 605 174 594Z"/>
+    <path d="M854 424 788 628Q768 692 708 721L407 866Q372 883 335 865L202 800Q183 791 204 780L640 548Q673 530 692 492L735 408Q748 383 776 393L842 412Q858 418 854 424Z"/>
+  </g>
+</svg>

@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017DE0DFB715E0F6BBF8F816 /* StoreKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84DEAB4B018362A314BC2B /* StoreKitTests.swift */; };
+		052E3A5C580845CB62293ED9 /* SocialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE1BAED04F34B6B4397524B /* SocialScreen.swift */; };
+		05A402946A3C1C8F4B737C77 /* YouTubeAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8231441CD520B62873339AB3 /* YouTubeAdapter.swift */; };
+		07537B51DDC4BC4740B0CFD6 /* ScrollTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4894876C7EEA824316D08983 /* ScrollTimerView.swift */; };
+		08FFA7ABD740EDADFE658F70 /* TimeIllustrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC9E5BE7EB69716F2AD0B7 /* TimeIllustrations.swift */; };
+		09CA60B4601C4E98215EC8B9 /* Supermod.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 738BCE1BF5B594F4FE2DC4F8 /* Supermod.storekit */; };
+		0EB90EC5CD2B2A563681481C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 3B01380CD88110C599D3A7F1 /* RevenueCat */; };
+		17B77C0A76CEE6D3598C67A6 /* ModsEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67277A45078107676D5327C /* ModsEditor.swift */; };
+		18F78DEA39F4780180C6BE16 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7B904A21628A48FF84B16 /* ModelTests.swift */; };
+		190E4E8538717DFDC6DDA4E9 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F47775ED58453AEAE1DAB /* OnboardingFlow.swift */; };
+		1E6C3B79CDB0D2060FA33BB3 /* WebKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D51FB1BE283F1F0334700 /* WebKitTests.swift */; };
+		1F133DB384AC66FC4570F9B9 /* instagram-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 538AA72862A7A04F9DA518CF /* instagram-rules.json */; };
+		2AB223D996AC705182E72BD0 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7848093B78A0E986866DB290 /* Preferences.swift */; };
+		3C866C3B0DC5ECDB2781BCEA /* WalkthroughTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A336E96877D414A24B4CAAF /* WalkthroughTests.swift */; };
+		3E01D4F536C1631A910BED2B /* web-experience.js in Resources */ = {isa = PBXBuildFile; fileRef = C29DCACF0CC0009912607FB1 /* web-experience.js */; };
+		3E17B0841899CDE4F358C148 /* SubscriptionAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69232D9D1A99F32DF780B9AD /* SubscriptionAnalytics.swift */; };
+		3E955A29735D3149F4D6CCDA /* WebSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E1AB7B8619C3211BD0DC63 /* WebSession.swift */; };
+		3EAAF302E133579B3619AE4C /* SupermodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3EBC5D037A4B839DBB4151 /* SupermodApp.swift */; };
+		45C431AFB3CE130FFBF15739 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC014D7D591CA9D93D17F1 /* Artwork.swift */; };
+		5ED17F551ED78AA00E7933AB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B000D2B668E411D9091EEC71 /* PrivacyInfo.xcprivacy */; };
+		62EC216EBAECD6A5B37087C1 /* InstagramAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C11757EE0BAA9AD3B3D99 /* InstagramAdapter.swift */; };
+		653249DD47841192FA5B35FD /* instagram.css in Resources */ = {isa = PBXBuildFile; fileRef = 7F4B38B826969B72A6680D38 /* instagram.css */; };
+		6AE27FB4F5118E173B1F7EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B921CA7ADC32FB9389C9E20C /* Assets.xcassets */; };
+		72C856886617C704C885EA55 /* engine.js in Resources */ = {isa = PBXBuildFile; fileRef = 2489A6CCC7E94ECA4BFA7258 /* engine.js */; };
+		83FFB4E11C731541600DF034 /* YouTubeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1EF3C4F16F1E4B3480875E /* YouTubeScreen.swift */; };
+		88802D296DD8AA0F197556EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1D103A5E14CF017D4CEDB8 /* LaunchScreen.storyboard */; };
+		9B9948BCE2FD0DA8E8FFEE2B /* EntitlementStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFDCF8D6BFED3353755542 /* EntitlementStore.swift */; };
+		A717F30676DB9CCA7EDA06D2 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1889BBB1199832BA8F0CF5A6 /* DesignSystem.swift */; };
+		A892D77BF08F44A224DF4293 /* MotionScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22A8F3F9605A4C43422C20 /* MotionScenes.swift */; };
+		AAD5A86CA7E6058DDC138C86 /* FacebookAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7183447C675EB1A875F313 /* FacebookAdapter.swift */; };
+		B939E8435373DBEE8E61A415 /* facebook-engine.js in Resources */ = {isa = PBXBuildFile; fileRef = BF0E23FB937F5CBD946591E0 /* facebook-engine.js */; };
+		BC469009C7B7A74FCA69E2F2 /* InteriorViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C01047BA7FF2938FA19C51 /* InteriorViews.swift */; };
+		C9E484A116625E54412DF84F /* Supermod.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 738BCE1BF5B594F4FE2DC4F8 /* Supermod.storekit */; };
+		DD59B9090740195BA389273B /* route-observer.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C37E1BD7163D1ABC02801AD /* route-observer.js */; };
+		E1B18FBBFC3702A28D4EFDEF /* ResearchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4232D47338CE3A1ED9055C2 /* ResearchCard.swift */; };
+		E22EEAF4C00339F256D01EC7 /* youtube-engine.js in Resources */ = {isa = PBXBuildFile; fileRef = 62DC48E8E5A2B59E1242F070 /* youtube-engine.js */; };
+		F105F865F569F559C59DA830 /* welcome-luxury.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A00804A86C97D5CC37F1BE64 /* welcome-luxury.mp4 */; };
+		F414432B374ED8CCD751B9D4 /* FacebookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5B81D39A2DADCC4BF143D6 /* FacebookPreview.swift */; };
+		F4AE1B8E33FDEEC332467670 /* instagram-feed.js in Resources */ = {isa = PBXBuildFile; fileRef = 6920A3CDAF8AAC248A3220B1 /* instagram-feed.js */; };
+		F4B488833F1D8C430BA573EC /* SupermodIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 9D17BFF0B16702A9B05BDB8A /* SupermodIcon.icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16EDE07BFBC3539528CF6650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E058AAD3B96FF7B1937CB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B663CDEE73B61B187E82FFD;
+			remoteInfo = Supermod;
+		};
+		DCDB1630F699255DBC8045BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E058AAD3B96FF7B1937CB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B663CDEE73B61B187E82FFD;
+			remoteInfo = Supermod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1889BBB1199832BA8F0CF5A6 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		2489A6CCC7E94ECA4BFA7258 /* engine.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = engine.js; sourceTree = "<group>"; };
+		2C37E1BD7163D1ABC02801AD /* route-observer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "route-observer.js"; sourceTree = "<group>"; };
+		4894876C7EEA824316D08983 /* ScrollTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTimerView.swift; sourceTree = "<group>"; };
+		4C3EBC5D037A4B839DBB4151 /* SupermodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupermodApp.swift; sourceTree = "<group>"; };
+		538AA72862A7A04F9DA518CF /* instagram-rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "instagram-rules.json"; sourceTree = "<group>"; };
+		62DC48E8E5A2B59E1242F070 /* youtube-engine.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "youtube-engine.js"; sourceTree = "<group>"; };
+		6920A3CDAF8AAC248A3220B1 /* instagram-feed.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "instagram-feed.js"; sourceTree = "<group>"; };
+		69232D9D1A99F32DF780B9AD /* SubscriptionAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionAnalytics.swift; sourceTree = "<group>"; };
+		6BE1BAED04F34B6B4397524B /* SocialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialScreen.swift; sourceTree = "<group>"; };
+		738BCE1BF5B594F4FE2DC4F8 /* Supermod.storekit */ = {isa = PBXFileReference; path = Supermod.storekit; sourceTree = "<group>"; };
+		7848093B78A0E986866DB290 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		78C01047BA7FF2938FA19C51 /* InteriorViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteriorViews.swift; sourceTree = "<group>"; };
+		7CA2BD4A1E25A7C0B9A8A712 /* SupermodUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SupermodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1EF3C4F16F1E4B3480875E /* YouTubeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeScreen.swift; sourceTree = "<group>"; };
+		7F4B38B826969B72A6680D38 /* instagram.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = instagram.css; sourceTree = "<group>"; };
+		7FAC9E5BE7EB69716F2AD0B7 /* TimeIllustrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIllustrations.swift; sourceTree = "<group>"; };
+		8231441CD520B62873339AB3 /* YouTubeAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAdapter.swift; sourceTree = "<group>"; };
+		827C11757EE0BAA9AD3B3D99 /* InstagramAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAdapter.swift; sourceTree = "<group>"; };
+		8A7183447C675EB1A875F313 /* FacebookAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAdapter.swift; sourceTree = "<group>"; };
+		9A336E96877D414A24B4CAAF /* WalkthroughTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughTests.swift; sourceTree = "<group>"; };
+		9C22A8F3F9605A4C43422C20 /* MotionScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionScenes.swift; sourceTree = "<group>"; };
+		9D17BFF0B16702A9B05BDB8A /* SupermodIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = wrapper.icon; path = SupermodIcon.icon; sourceTree = "<group>"; };
+		9FA7B904A21628A48FF84B16 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		A00804A86C97D5CC37F1BE64 /* welcome-luxury.mp4 */ = {isa = PBXFileReference; path = "welcome-luxury.mp4"; sourceTree = "<group>"; };
+		AF84DEAB4B018362A314BC2B /* StoreKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitTests.swift; sourceTree = "<group>"; };
+		B000D2B668E411D9091EEC71 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B81F47775ED58453AEAE1DAB /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		B921CA7ADC32FB9389C9E20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0E23FB937F5CBD946591E0 /* facebook-engine.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "facebook-engine.js"; sourceTree = "<group>"; };
+		C29DCACF0CC0009912607FB1 /* web-experience.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "web-experience.js"; sourceTree = "<group>"; };
+		C5E1AB7B8619C3211BD0DC63 /* WebSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSession.swift; sourceTree = "<group>"; };
+		CEDC014D7D591CA9D93D17F1 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		D1FB2A5280D3CE4484A343BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D67277A45078107676D5327C /* ModsEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModsEditor.swift; sourceTree = "<group>"; };
+		DA31C37BD28E304DC5B471A2 /* Supermod.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Supermod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D103A5E14CF017D4CEDB8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF9E84F734E4F715801EB32 /* SupermodTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SupermodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5B81D39A2DADCC4BF143D6 /* FacebookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPreview.swift; sourceTree = "<group>"; };
+		F4232D47338CE3A1ED9055C2 /* ResearchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchCard.swift; sourceTree = "<group>"; };
+		F45D51FB1BE283F1F0334700 /* WebKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitTests.swift; sourceTree = "<group>"; };
+		F7FFDCF8D6BFED3353755542 /* EntitlementStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A88AF2E4F98CF8BCA7D4026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB90EC5CD2B2A563681481C /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08644CF07E4BB8FDA6F1CF88 /* Supermod */ = {
+			isa = PBXGroup;
+			children = (
+				D1FB2A5280D3CE4484A343BA /* Info.plist */,
+				25E2D593F624C61B9ED85254 /* App */,
+				EA0FB03FEC8C47AE9E02CF21 /* Interior */,
+				58BBF86277354A1319D9DC52 /* Onboarding */,
+				27C0D321D7F783D9B408C206 /* Resources */,
+				ED3FBC0D0AD53E0F35F48306 /* Social */,
+			);
+			path = Supermod;
+			sourceTree = "<group>";
+		};
+		25E2D593F624C61B9ED85254 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1889BBB1199832BA8F0CF5A6 /* DesignSystem.swift */,
+				F7FFDCF8D6BFED3353755542 /* EntitlementStore.swift */,
+				7848093B78A0E986866DB290 /* Preferences.swift */,
+				69232D9D1A99F32DF780B9AD /* SubscriptionAnalytics.swift */,
+				4C3EBC5D037A4B839DBB4151 /* SupermodApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		27C0D321D7F783D9B408C206 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B921CA7ADC32FB9389C9E20C /* Assets.xcassets */,
+				2489A6CCC7E94ECA4BFA7258 /* engine.js */,
+				BF0E23FB937F5CBD946591E0 /* facebook-engine.js */,
+				6920A3CDAF8AAC248A3220B1 /* instagram-feed.js */,
+				538AA72862A7A04F9DA518CF /* instagram-rules.json */,
+				7F4B38B826969B72A6680D38 /* instagram.css */,
+				DB1D103A5E14CF017D4CEDB8 /* LaunchScreen.storyboard */,
+				B000D2B668E411D9091EEC71 /* PrivacyInfo.xcprivacy */,
+				2C37E1BD7163D1ABC02801AD /* route-observer.js */,
+				9D17BFF0B16702A9B05BDB8A /* SupermodIcon.icon */,
+				C29DCACF0CC0009912607FB1 /* web-experience.js */,
+				A00804A86C97D5CC37F1BE64 /* welcome-luxury.mp4 */,
+				62DC48E8E5A2B59E1242F070 /* youtube-engine.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58BBF86277354A1319D9DC52 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC014D7D591CA9D93D17F1 /* Artwork.swift */,
+				9C22A8F3F9605A4C43422C20 /* MotionScenes.swift */,
+				B81F47775ED58453AEAE1DAB /* OnboardingFlow.swift */,
+				F4232D47338CE3A1ED9055C2 /* ResearchCard.swift */,
+				7FAC9E5BE7EB69716F2AD0B7 /* TimeIllustrations.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		59C8404418828B59930E12B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA31C37BD28E304DC5B471A2 /* Supermod.app */,
+				EBF9E84F734E4F715801EB32 /* SupermodTests.xctest */,
+				7CA2BD4A1E25A7C0B9A8A712 /* SupermodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8266349F71452E2B8428B2E9 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A336E96877D414A24B4CAAF /* WalkthroughTests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		D52137D7DCB45336E423C528 = {
+			isa = PBXGroup;
+			children = (
+				738BCE1BF5B594F4FE2DC4F8 /* Supermod.storekit */,
+				08644CF07E4BB8FDA6F1CF88 /* Supermod */,
+				F77D31E2439655664C4740D7 /* Tests */,
+				8266349F71452E2B8428B2E9 /* UITests */,
+				59C8404418828B59930E12B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0FB03FEC8C47AE9E02CF21 /* Interior */ = {
+			isa = PBXGroup;
+			children = (
+				EC5B81D39A2DADCC4BF143D6 /* FacebookPreview.swift */,
+				78C01047BA7FF2938FA19C51 /* InteriorViews.swift */,
+				D67277A45078107676D5327C /* ModsEditor.swift */,
+				4894876C7EEA824316D08983 /* ScrollTimerView.swift */,
+				6BE1BAED04F34B6B4397524B /* SocialScreen.swift */,
+				7E1EF3C4F16F1E4B3480875E /* YouTubeScreen.swift */,
+			);
+			path = Interior;
+			sourceTree = "<group>";
+		};
+		ED3FBC0D0AD53E0F35F48306 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				8A7183447C675EB1A875F313 /* FacebookAdapter.swift */,
+				827C11757EE0BAA9AD3B3D99 /* InstagramAdapter.swift */,
+				C5E1AB7B8619C3211BD0DC63 /* WebSession.swift */,
+				8231441CD520B62873339AB3 /* YouTubeAdapter.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		F77D31E2439655664C4740D7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7B904A21628A48FF84B16 /* ModelTests.swift */,
+				AF84DEAB4B018362A314BC2B /* StoreKitTests.swift */,
+				F45D51FB1BE283F1F0334700 /* WebKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B663CDEE73B61B187E82FFD /* Supermod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778E0791C4C7927E8A69862C /* Build configuration list for PBXNativeTarget "Supermod" */;
+			buildPhases = (
+				0737D41D35B0BBF7C718BF3D /* Sources */,
+				22D456A20FC2ADBEECAD2FC2 /* Resources */,
+				4A88AF2E4F98CF8BCA7D4026 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Supermod;
+			packageProductDependencies = (
+				3B01380CD88110C599D3A7F1 /* RevenueCat */,
+			);
+			productName = Supermod;
+			productReference = DA31C37BD28E304DC5B471A2 /* Supermod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FCD6315358F5158AF958B6B /* SupermodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41123C5FC2149CDB7E7A0A1 /* Build configuration list for PBXNativeTarget "SupermodTests" */;
+			buildPhases = (
+				A9327E3431E4E09B44912B95 /* Sources */,
+				D9A10B5D0B0C2DB1EDA51DD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D206FE4ED8235490D4474F /* PBXTargetDependency */,
+			);
+			name = SupermodTests;
+			packageProductDependencies = (
+			);
+			productName = SupermodTests;
+			productReference = EBF9E84F734E4F715801EB32 /* SupermodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D987C9609ACCBE37ADA2F5CC /* SupermodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A948C51FE8092EC60EB15D /* Build configuration list for PBXNativeTarget "SupermodUITests" */;
+			buildPhases = (
+				2507EA78E0D14EFDA3CEB6C3 /* Sources */,
+				919CD199A4756973D3631F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D789EBBC2C47485B02C84ED8 /* PBXTargetDependency */,
+			);
+			name = SupermodUITests;
+			packageProductDependencies = (
+			);
+			productName = SupermodUITests;
+			productReference = 7CA2BD4A1E25A7C0B9A8A712 /* SupermodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E058AAD3B96FF7B1937CB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D987C9609ACCBE37ADA2F5CC = {
+						TestTargetID = 0B663CDEE73B61B187E82FFD;
+					};
+				};
+			};
+			buildConfigurationList = 4A03ADB9F99834446BFC8C63 /* Build configuration list for PBXProject "Supermod" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D52137D7DCB45336E423C528;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				20B022EBF700D84BC3ADDD99 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 59C8404418828B59930E12B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B663CDEE73B61B187E82FFD /* Supermod */,
+				9FCD6315358F5158AF958B6B /* SupermodTests */,
+				D987C9609ACCBE37ADA2F5CC /* SupermodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D456A20FC2ADBEECAD2FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE27FB4F5118E173B1F7EA1 /* Assets.xcassets in Resources */,
+				88802D296DD8AA0F197556EB /* LaunchScreen.storyboard in Resources */,
+				5ED17F551ED78AA00E7933AB /* PrivacyInfo.xcprivacy in Resources */,
+				F4B488833F1D8C430BA573EC /* SupermodIcon.icon in Resources */,
+				72C856886617C704C885EA55 /* engine.js in Resources */,
+				B939E8435373DBEE8E61A415 /* facebook-engine.js in Resources */,
+				F4AE1B8E33FDEEC332467670 /* instagram-feed.js in Resources */,
+				1F133DB384AC66FC4570F9B9 /* instagram-rules.json in Resources */,
+				653249DD47841192FA5B35FD /* instagram.css in Resources */,
+				DD59B9090740195BA389273B /* route-observer.js in Resources */,
+				3E01D4F536C1631A910BED2B /* web-experience.js in Resources */,
+				F105F865F569F559C59DA830 /* welcome-luxury.mp4 in Resources */,
+				E22EEAF4C00339F256D01EC7 /* youtube-engine.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919CD199A4756973D3631F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E484A116625E54412DF84F /* Supermod.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A10B5D0B0C2DB1EDA51DD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CA60B4601C4E98215EC8B9 /* Supermod.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0737D41D35B0BBF7C718BF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C431AFB3CE130FFBF15739 /* Artwork.swift in Sources */,
+				A717F30676DB9CCA7EDA06D2 /* DesignSystem.swift in Sources */,
+				9B9948BCE2FD0DA8E8FFEE2B /* EntitlementStore.swift in Sources */,
+				AAD5A86CA7E6058DDC138C86 /* FacebookAdapter.swift in Sources */,
+				F414432B374ED8CCD751B9D4 /* FacebookPreview.swift in Sources */,
+				62EC216EBAECD6A5B37087C1 /* InstagramAdapter.swift in Sources */,
+				BC469009C7B7A74FCA69E2F2 /* InteriorViews.swift in Sources */,
+				17B77C0A76CEE6D3598C67A6 /* ModsEditor.swift in Sources */,
+				A892D77BF08F44A224DF4293 /* MotionScenes.swift in Sources */,
+				190E4E8538717DFDC6DDA4E9 /* OnboardingFlow.swift in Sources */,
+				2AB223D996AC705182E72BD0 /* Preferences.swift in Sources */,
+				E1B18FBBFC3702A28D4EFDEF /* ResearchCard.swift in Sources */,
+				07537B51DDC4BC4740B0CFD6 /* ScrollTimerView.swift in Sources */,
+				052E3A5C580845CB62293ED9 /* SocialScreen.swift in Sources */,
+				3E17B0841899CDE4F358C148 /* SubscriptionAnalytics.swift in Sources */,
+				3EAAF302E133579B3619AE4C /* SupermodApp.swift in Sources */,
+				08FFA7ABD740EDADFE658F70 /* TimeIllustrations.swift in Sources */,
+				3E955A29735D3149F4D6CCDA /* WebSession.swift in Sources */,
+				05A402946A3C1C8F4B737C77 /* YouTubeAdapter.swift in Sources */,
+				83FFB4E11C731541600DF034 /* YouTubeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2507EA78E0D14EFDA3CEB6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C866C3B0DC5ECDB2781BCEA /* WalkthroughTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9327E3431E4E09B44912B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F78DEA39F4780180C6BE16 /* ModelTests.swift in Sources */,
+				017DE0DFB715E0F6BBF8F816 /* StoreKitTests.swift in Sources */,
+				1E6C3B79CDB0D2060FA33BB3 /* WebKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D789EBBC2C47485B02C84ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B663CDEE73B61B187E82FFD /* Supermod */;
+			targetProxy = DCDB1630F699255DBC8045BC /* PBXContainerItemProxy */;
+		};
+		E3D206FE4ED8235490D4474F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B663CDEE73B61B187E82FFD /* Supermod */;
+			targetProxy = 16EDE07BFBC3539528CF6650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DC66A65A22D04487FD3E0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.supermod.ios.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supermod.app/Supermod";
+			};
+			name = Debug;
+		};
+		6FD5F38A0F9E0AB9600B005F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SupermodIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Supermod/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Supermod;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.supermod.ios;
+				REVENUECAT_PUBLIC_API_KEY = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C84F489A1EACE5D6AE35D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = SupermodIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Supermod/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Supermod;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.supermod.ios;
+				REVENUECAT_PUBLIC_API_KEY = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9B587E908F8C36F0186D37AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9FC9FDF6739509B53FD7E65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.supermod.ios.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Supermod;
+			};
+			name = Debug;
+		};
+		D351D19A4F8D4768CABB4B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E15168C8E7275E83180F1F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.supermod.ios.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Supermod;
+			};
+			name = Release;
+		};
+		FF1D4AF06E3EA36334A58DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.supermod.ios.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supermod.app/Supermod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A03ADB9F99834446BFC8C63 /* Build configuration list for PBXProject "Supermod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D351D19A4F8D4768CABB4B4F /* Debug */,
+				9B587E908F8C36F0186D37AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76A948C51FE8092EC60EB15D /* Build configuration list for PBXNativeTarget "SupermodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC9FDF6739509B53FD7E65F /* Debug */,
+				E15168C8E7275E83180F1F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		778E0791C4C7927E8A69862C /* Build configuration list for PBXNativeTarget "Supermod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD5F38A0F9E0AB9600B005F /* Debug */,
+				8C84F489A1EACE5D6AE35D2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C41123C5FC2149CDB7E7A0A1 /* Build configuration list for PBXNativeTarget "SupermodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC66A65A22D04487FD3E0C5 /* Debug */,
+				FF1D4AF06E3EA36334A58DD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20B022EBF700D84BC3ADDD99 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.102.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B01380CD88110C599D3A7F1 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20B022EBF700D84BC3ADDD99 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0E058AAD3B96FF7B1937CB2D /* Project object */;
+}
