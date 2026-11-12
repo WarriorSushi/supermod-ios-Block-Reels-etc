@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/WarriorSushi/supermod-ios-Block-Reels-etc/security/advisories/new
+    about: Do not post credentials or private data in public issues.
+  - name: Setup and common questions
+    url: https://github.com/WarriorSushi/supermod-ios-Block-Reels-etc/blob/main/docs/FAQ.md
+    about: Read the FAQ and restore guide before reporting setup issues.

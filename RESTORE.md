@@ -43,4 +43,4 @@ The `REVENUECAT_PUBLIC_API_KEY` default is deliberately blank in both project.ym
 
 The app's bundled artwork, demonstration media and their available provenance notes are retained. The existing repository LICENSE is preserved; third-party assets and SDKs may have separate rights or licenses. This archive does not establish legal clearance for distributing the app or its bundled media. Review service permissions and asset rights before launch.
 
-The archive is sufficient to rebuild the development app, not to recreate private accounts, certificates or signed-in sessions. Historical Evidence links intentionally do not resolve in this public copy. `ARCHIVE-SHA256SUMS.txt` covers all archived files except itself.
+The archive is sufficient to rebuild the development app, not to recreate private accounts, certificates or signed-in sessions. Historical Evidence links intentionally do not resolve in this public copy. `ARCHIVE-SHA256SUMS.txt` covers the tracked public package except itself. It is refreshed when the source or documentation changes. Contributors can validate it with `python3 scripts/repository_check.py`; see [CONTRIBUTING.md](CONTRIBUTING.md).

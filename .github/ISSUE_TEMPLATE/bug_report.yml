@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem without private account data.
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Please keep credentials, messages, usernames, signed-in screenshots and raw web dumps out of this public issue. Report security problems through the Security tab.'
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: App commit, iOS version, device or simulator, and Xcode version if applicable.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Instagram
+        - Facebook
+        - YouTube
+        - Home / timer / filter lock
+        - Setup / build / other
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and active filters
+      description: Include the site's language and whether refresh or scrolling triggers it. Prefer a synthetic reproduction.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-report check
+      options:
+        - label: I removed credentials and personal account content from this report and its attachments.
+          required: true

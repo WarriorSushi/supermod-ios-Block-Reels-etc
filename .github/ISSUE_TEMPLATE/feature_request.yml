@@ -1,0 +1,22 @@
+name: Feature proposal
+description: Describe the browsing problem you want to solve.
+title: '[Idea] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the user need and affected service, rather than only an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed behavior and alternatives
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Limitations or testing considerations
+      description: Include accessibility, privacy or platform constraints if relevant.

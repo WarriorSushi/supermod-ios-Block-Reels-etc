@@ -21,3 +21,9 @@ Logs/
 Config/Local.xcconfig
 .archive-work/
 .restore-check/
+.claude/
+.codex/
+.xcodebuildmcp/
+*.log
+__pycache__/
+*.pyc
