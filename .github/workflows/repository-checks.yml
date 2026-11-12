@@ -23,6 +23,7 @@ jobs:
       - name: Check out source
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
+          fetch-depth: 2
           persist-credentials: false
       - name: Check public files, links and manifest
         run: python3 scripts/repository_check.py
